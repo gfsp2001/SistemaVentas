@@ -9,6 +9,8 @@ public class SistemaVenta {
         Login lg = new Login();
         lg.setVisible(true);
         
+        System.out.println("comit");
+        
     }
     
 }
