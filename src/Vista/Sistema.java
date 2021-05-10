@@ -1944,7 +1944,7 @@ public class Sistema extends javax.swing.JFrame {
              int pregunta = JOptionPane.showConfirmDialog(null, "Esta seguro de eliminar","Eliminar",JOptionPane.YES_NO_OPTION);
              if (pregunta == JOptionPane.YES_OPTION) {
                   if (fsel>=0) {
-                      /*REVISAR EL CODIGO EN COMENTARIO*/
+                      /*REVISAR EL CODIGO EN COMENTARIO xd*/
                       
                    /*  importe = Double.parseDouble(TableVenta.getValueAt(fsel, 4).toString());
                      total= Double.parseDouble(LabelTotal.getText())-importe;
