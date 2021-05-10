@@ -1935,14 +1935,8 @@ public class Sistema extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
       int fsel = TableVenta.getSelectedRow();
       double importe=0,total; 
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        
+       
+      
          if (fsel==-1) {
              JOptionPane.showMessageDialog(null, "Debe seleccionar el producto a eliminar","Advertencia",JOptionPane.WARNING_MESSAGE);
             
@@ -1950,12 +1944,15 @@ public class Sistema extends javax.swing.JFrame {
              int pregunta = JOptionPane.showConfirmDialog(null, "Esta seguro de eliminar","Eliminar",JOptionPane.YES_NO_OPTION);
              if (pregunta == JOptionPane.YES_OPTION) {
                   if (fsel>=0) {
-                     importe = Double.parseDouble(TableVenta.getValueAt(fsel, 4).toString());
+                   /*  importe = Double.parseDouble(TableVenta.getValueAt(fsel, 4).toString());
                      total= Double.parseDouble(LabelTotal.getText())-importe;
-                      LabelTotal.setText(""+total); 
+                      LabelTotal.setText(""+total); */
                       model.removeRow(fsel);
                    
-                          this.LabelTotal.setText("---");
+//                         if(total==0){
+//                              this.LabelTotal.setText("---");
+//                         }
+                             
                         
                   }
 
