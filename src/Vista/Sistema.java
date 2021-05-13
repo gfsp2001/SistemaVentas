@@ -48,6 +48,10 @@ import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import org.jdesktop.swingx.autocomplete.AutoCompleteDecorator;
 
+/*
+*
+
+*/
 public class Sistema extends javax.swing.JFrame {
     Date fechaVenta = new Date();
     String fechaActual = new SimpleDateFormat("dd/MM/yyyy").format(fechaVenta);
